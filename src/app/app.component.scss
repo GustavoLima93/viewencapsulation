@@ -1,0 +1,17 @@
+.encapsulation {
+    [viewencapsulation] {
+        .pagination {           
+            float: right;
+            margin-right: 50px;
+        }
+        .page-link {
+            color: black; // background-color: #F3F3F3;
+            border-color: black
+        }
+        .page-item.active .page-link {
+            background-color: #F44336;
+            border-color: black;
+            color: black
+        }
+    }
+}
